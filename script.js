@@ -13,7 +13,7 @@ form.addEventListener('submit', async (e) => {
     // Redirect after a very short delay (even if fetch isn’t done yet)
     setTimeout(() => {
       window.location.href = 'thank-you.html';
-    }, 100); // 300ms delay
+    }, 300); // 300ms delay
 
     await response;
   } catch (error) {
